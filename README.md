@@ -20,3 +20,10 @@ formData.param1 = "テスト";
 ```javascript
 data: formData
 ```
+```javascript
+{
+	"param1": "テスト"
+}
+```
+http://localhost/app/form-action-json.php?param1=%E3%83%86%E3%82%B9%E3%83%88&_=1626243689251
+というフォーマットにjQueryに加工されてサーバのPHPが呼び出されます
