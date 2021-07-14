@@ -44,7 +44,7 @@ $json-> = $_GET;
 print json_encode( $json, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT );
 ```
 ## PHP より返却された json を .done で data として受け取る
-```ajax
+```
 {
 	"get": {
 		"param1": "テスト",
