@@ -11,3 +11,8 @@ formData = {};
 formData["param1"] = "テスト";
 ```
 formData のプロパティは formData に["プロパティ文字列"] に値をセットして作成される
+
+formData のプロパティは formData.プロパティ文字列と書くこともできます
+```javascript
+formData.param1"= "テスト";
+```
