@@ -7,7 +7,7 @@ ajaxのgetを行う為のテンプレート
 formData = {};
 ```
 {}は 空の json オブジェクト
-
-```javascrip
+```javascript
 formData["param1"] = "テスト";
 ```
+formData のプロパティは formData に["プロパティ文字列"] に値をセットして作成される
